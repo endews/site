@@ -1,5 +1,12 @@
 <script>
-    let name = "asd"
+    import { Link, Router, Route } from 'svelte-navigator'
+
+    // page imports
+    import Home from './pages/Home.svelte'
 </script>
 
-<p>{name}</p>
+<Router>
+    <Route path="/">
+        <Home />
+    </Route>
+</Router>
