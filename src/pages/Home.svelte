@@ -2,4 +2,4 @@
     let neym = "asdasd"
 </script>
 
-<p>{neym}</p>
+<p class="font-bold text-3xl">{neym}</p>
