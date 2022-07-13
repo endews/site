@@ -1,5 +1,7 @@
 <script>
-    let neym = "asdasd"
+    import Navbar from "../components/Navbar.svelte";
 </script>
 
-<p class="font-bold text-3xl">{neym}</p>
+<main>
+    <Navbar />
+</main>
